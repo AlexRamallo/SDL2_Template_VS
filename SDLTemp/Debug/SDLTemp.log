@@ -1,0 +1,5 @@
+﻿main.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function _SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+..\SDL\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\SDL\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\CoolA\Projects\SDLTemp\Debug\SDLTemp.exe : fatal error LNK1120: 2 unresolved externals
